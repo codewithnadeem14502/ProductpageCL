@@ -1,0 +1,389 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Gilroy:wght@300;400;500;700&display=swap");
+
+* {
+  /* background-color: #000;
+  background-color: #fff; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* color: white; */
+}
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  margin: -15px 0 0 20px;
+}
+.hero {
+  height: 400px;
+  width: 100%;
+}
+.hero-content {
+  color: white;
+  position: relative;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.05);
+
+  height: 530px;
+}
+
+.header {
+  /* background: #fff; */
+  border-radius: 20px;
+  z-index: 99;
+  padding: 10px;
+  margin-top: 10px;
+  /* width: 1200px;| */
+}
+.header::after {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  background: #fff;
+  width: 1024px;
+  height: 50px;
+  /* padding: 20px; */
+  margin-left: 84px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+.hero-content::before {
+  content: "";
+  position: absolute;
+  top: -10;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background: url("./assets/BLOB\ ANIMATION.gif"); */
+  /* background: url("/supprtsvgs/Gradient.png"); */
+  /* background: url("./assests/Gradient.png"); */
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  inset: 0;
+  /* background-size: 1840px; */
+  z-index: -1;
+}
+
+.item {
+  margin: 10px 20px;
+  color: #000;
+}
+.nav_section {
+  z-index: 99;
+}
+.dot {
+  font-size: 40px;
+  margin-top: -22px;
+  border-radius: 50%;
+  color: rgba(35, 172, 128, 1);
+}
+
+.login {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px;
+  gap: 24px;
+  margin-top: 8px;
+  color: rgba(35, 172, 128, 1);
+  width: 91px;
+  height: 39px;
+  border: 1px solid rgba(35, 172, 128, 1);
+  border-radius: 8px 8px 20px 8px;
+
+  transition: all 1s ease-in-out;
+}
+
+.arrow {
+  visibility: hidden;
+}
+
+.login:hover .arrow {
+  visibility: visible;
+}
+.login:hover .dot {
+
+
+  display: none;
+}
+.login:hover {
+  background: linear-gradient(to right, #96e4df, #4dccc6);
+  transition: all 1s ease-in-out;
+  color: #fff;
+}
+
+.nav_section::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  display: block;
+  height: 520px;
+  width: 100%;
+  /* background: url("./assests/Gradient.png"); */
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.header {
+  z-index: 9999;
+  /* position: relative; */
+}
+.login2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  gap: 14px;
+  margin-top: 8px;
+  color: rgba(35, 172, 128, 1);
+  width: 215px;
+  height: 49px;
+  border: 1px solid rgba(35, 172, 128, 1);
+  border-radius: 8px 8px 20px 8px;
+ font-size: 15px;
+  transition: all 1s ease-in-out;
+}
+.login2:hover .arrow {
+  visibility: visible;
+}
+.login2:hover .dot {
+
+
+  display: none;
+}
+.login2:hover {
+  background: linear-gradient(to right, #96e4df, #4dccc6);
+  transition: all 1s ease-in-out;
+  color: #fff;
+}
+/* =================== navbar end  ============================= */
+  .box1
+  {
+    display: flex;
+    /* background-color: red; */
+    padding-top: 50px;
+  }
+
+.box_1{
+    margin-left: 175px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   font-family: 'Poppins', sans-serif;
+  margin-right: 50px;
+
+}
+.box_1_text{
+   margin-bottom: 10px;
+   font-size: 40px;
+   font-weight: 500;
+}
+.box_1 p{
+  font-size: 20px;
+}
+.textproduct{
+    /* color: linear-gradient(180deg, #151515 0%, #01787B 70.62%) */
+color: #01787B ;
+}
+
+
+.box2_graphs{
+    /* background-color:red; */
+    width: 1000px;
+    height: 350px;
+    margin-left: 40px;
+}
+.box2_p{
+   
+    margin-right: 50px;
+}
+.boxweb
+{
+  margin-left: 160px;
+  margin-bottom: 50px;
+}
+
+  .box5{
+    /* background-color: red; */
+    height: 300px;
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    /* justify-content: center;
+    align-items: center; */
+  }
+  .box5_h{
+    margin-bottom: 25px;
+    font-size: 60px;
+    font-weight: 500;
+    color: #01787B ;
+    margin-left: 30px;
+  
+  }
+  .box5_p
+  {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 23px;
+  /* background-color: green; */
+  }
+  .icons{
+    display: flex;
+    /* width: 100px; */
+    /* background-color: red; */
+  
+  }
+  .icons_img1
+  {
+    width: 120px;
+    height: 50px;
+    margin-top: 110px;
+  }
+  .icons_img2
+  {
+    width: 120px;
+    height: 110px;
+    margin-bottom: 25px;
+ 
+  }
+  .icons_img31
+  {
+    margin-top: 110px;
+    width: 120px;
+    height: 150px;
+  }
+  .icons_img32
+  {
+    margin-top: 110px;
+    width: 120px;
+    height: 150px;
+  
+  }
+
+.btnbox5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fapi {
+  margin-top: 30px;
+  position: relative;
+  width: 500px; /* adjust width as needed */
+  height: 400px; /* adjust height as needed */
+}
+
+.fapi img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.3s ease-in-out;
+  padding-right: 50px;
+}
+
+.fapi .f2 {
+  z-index: 1; /* make f2 overlay f1 */
+  top: 0;
+  left: 0;
+}
+
+.fapi:hover .f1 {
+  transform: rotate(360deg); 
+  /* rotate f1 360 degrees in a clockwise direction on hover */
+}
+.f1
+{
+  /* background-color: red; */
+  margin-left: 24px;
+}
+footer{
+
+  background-color: black;
+}
+.footer1
+{
+ 
+  display: flex;
+  justify-content: space-evenly;
+}
+.titlef{
+  color: #01787B ;
+  font-weight: 500;
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+li,.text1{
+  color: white;
+  margin-bottom: 10px;
+}
+.footerlogo{
+  color: #01787B ;
+}
+.textfooter,.textfooteraction{
+  color: white;
+}
+.footerbottom{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 120px;
+}
+.footerlog{
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+.socialmedia{
+  display: flex;
+}
+.socialmedia img{
+  margin-left: 20px;
+
+}
+.last{
+  color: white;
+  margin-left: 50px;
+}
+.last p{
+  font-family: sans-serif;
+}
+.last2{
+  /* display: flex; */
+  color: white;
+  margin-top: 20px;
+ /* justify-content: space-evenly; */
+}
+.textff
+{
+  margin-left: 15px;
+  font-size: 25px;
+  font-weight: 500;
+  color: white;
+}
+.fbtns{
+  margin: 5px;
+  padding: 10px;
+  background-color:#01C096 ;
+   border-radius: 5px;
+}
+.last2 {
+  display: flex;
+  justify-content: space-between;
+}
+.lastp2
+{
+  padding-right: 120px;
+  text-decoration: underline;
+}
+.lastp1,
+.lastp2 {
+  margin: 0;
+}
